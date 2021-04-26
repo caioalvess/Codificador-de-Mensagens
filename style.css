@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Orbitron:wght@400;500;600;700;800;900&family=Quantico:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color:#fff;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.bannervideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bannervideo video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.container {
+    width: 1000px;
+    height: 90vh;
+    margin: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    backdrop-filter: blur(0px);
+}
+h1 {
+    text-transform: uppercase;
+}
+#increment {
+    width: 50px;
+    background: rgba(0, 0, 0, 0.76);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 10px;
+    outline: none;
+    padding: 5px;
+    visibility: hidden;
+}
+#codificadoresinp {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+#receber {
+    background: rgba(0, 0, 0, 0.76);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+#receberC {
+    background: rgba(0, 0, 0, 0.76);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: none;
+    resize: none;
+    padding: 10px;
+    outline: none; 
+    height: 200px;
+}
+#entregar {
+    padding: 10px;
+}
+#entregarC {
+    padding: 10px;
+}
+#select {
+    background: rgba(0, 0, 0, 0.76);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    width: 248px;
+    height: 30px;
+}
+#textinp {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+.areainput {
+    display: flex;
+    flex-direction: column;
+}
+#receber {
+    padding: 10px;
+    width: 410px;
+    outline: none;  
+    resize: none;
+}
+#radioinp {
+    margin-top: 13px;
+}
+.content {
+    width: 440px;
+    height: 181px;
+    background: #fff;
+    align-self: flex-end;
+    background: rgba(0, 0, 0, 0.76);
+    border: 1px solid #fff;
+    position: relative;
+    border-radius: 10px;
+}
+.contentC {
+    width: 440px;
+    height: 181px;
+    background: #fff;
+    align-self: flex-end;
+    background: rgba(0, 0, 0, 0.76);
+    border: 1px solid #fff;
+    position: relative;
+    border-radius: 10px;
+    display: none;
+}
+button {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: black;
+    outline: none;
+    transition: 0.1s;
+}
+button:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    outline: none;
+}
+.bparagrafo {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.bparagrafo:hover {
+    font-weight: 700;
+    color: #111;
+} 
+#entregar {
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    outline: none;
+}
+#entregarC {
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    outline: none;
+    display: none;
+}
+#digiteaMensagem {
+    font-size: 18px;
+    font-weight: 400;
+}
+#escolhacodificacao {
+    font-size: 18px;
+    font-weight: 400;
+}

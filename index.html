@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='style.css'>
+    <title>Coficator</title>
+</head>
+
+<body>
+    <div class="bannervideo">
+        <video src="video (3).mp4" autoplay muted loop class="active"></video>
+    </div>
+    <div class="container">
+        <h1>codificador de mensagens</h1>
+        <div id="codificadoresinp">
+            <div class="incremento">
+                <label for="codificadores" id="labelcodificadores"><p id='escolhacodificacao'>Escolha uma codificação: </p></label><br>
+                <select id='select' name="codificadores" onchange="recebeDisplay()">   
+                    <option value="nulo"></option>
+                    <option value="base64" id="base64">Base64</option>
+                    <option value="cifradecesar" id="recebeIncremento">Cifra de César</option><br>
+                    <input type="text" id="increment" onchange="validaIncremento()">
+                </select>
+            </div>
+
+            <div id="radioinp">
+                <form id = 'escolhaC'>
+                    <input type="radio" id="codificar" name="codigo" value="Codificar" onchange="botao()">
+                    <label for="codificar">Codificar</label><br><br>
+                    <input type="radio" id="descodificar" name="codigo" value="Descodificar" onchange="botaoD()">
+                    <label for="descodificar">Decodificar</label><br>   
+
+                </form>
+            </div>
+        </div>
+
+
+        <div id="textinp">
+            <div class="areainput">
+                <label for='receber'><p id='digiteaMensagem'>Digite sua mensagem: </p></label><br>
+                <textarea name="receber" id="receber" cols="30" rows="10"></textarea>
+                <textarea name="receber" id="receberC" cols="30" rows="10"></textarea>
+            </div>
+            <div class="content">
+                <p id='entregar'></p>
+                <p id='entregarC'></p>
+            </div>
+        </div>
+        <button type="submit" onclick="decisao()">
+            <p class="bparagrafo">Carregando...</p>
+        </button>
+    </div>
+
+</body>
+<script src="base64.js"></script>
+<script src="cesar.js"></script>
+</body>
+
+</html>
+
