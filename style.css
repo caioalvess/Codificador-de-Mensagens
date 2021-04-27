@@ -26,7 +26,7 @@ body {
     object-fit: cover;
 } 
 .container {
-    width: 1000px;
+    width: 1200px;
     height: 90vh;
     margin: 30px;
     align-self: center;
@@ -55,7 +55,7 @@ h1 {
 #codificadoresinp {
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 600px;
     flex-wrap: wrap;
 }
 #receber {
@@ -89,7 +89,7 @@ h1 {
 }
 #textinp {
     display: flex;
-    width: 900px;
+    width: 950px;
     justify-content: space-between;
 }
 .areainput {
