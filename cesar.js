@@ -7,7 +7,7 @@ function recebeDisplay () {
         document.querySelector ('#entregarC')
         document.getElementById('increment').style.visibility = 'visible';
         document.querySelector ('#receberC').style.display="initial";
-        document.querySelector ('#receberC').style.width="410px";
+        document.querySelector ('#receberC').style.width="420px";
         document.querySelector ('#receberC').style.height="160px";
         document.querySelector ('#entregarC').style.display="block";
         document.querySelector ('#entregar').style.display="none";

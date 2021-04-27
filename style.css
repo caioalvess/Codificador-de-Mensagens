@@ -56,6 +56,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 500px;
+    flex-wrap: wrap;
 }
 #receber {
     background: rgba(0, 0, 0, 0.76);
@@ -97,7 +98,7 @@ h1 {
 }
 #receber {
     padding: 10px;
-    width: 410px;
+    width: 420px;
     outline: none;  
     resize: none;
 }
@@ -115,7 +116,7 @@ h1 {
     border-radius: 10px;
 }
 .contentC {
-    width: 440px;
+    width: 430px;
     height: 181px;
     background: #fff;
     align-self: flex-end;
@@ -156,6 +157,7 @@ button:hover {
     padding: 10px;
     font-size: 12px;
     outline: none;
+    overflow-wrap: break-word;
 }
 #entregarC {
     color: #fff;
@@ -163,6 +165,7 @@ button:hover {
     font-size: 12px;
     outline: none;
     display: none;
+    overflow-wrap: break-word;
 }
 #digiteaMensagem {
     font-size: 18px;
